@@ -28,7 +28,7 @@ z=i;
 }
 printf("\t student with highest avg marks is \n");
 printf("\t name is : %s \n",s[z].name);
-printf("\t student id is : %d \n",s[z].std);
+printf("\t student name is : %s \n",s[z].name);
 
 
 return 0;
