@@ -13,7 +13,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         printf("\t enter %d student name \n",i+1);
-        fgets(s[i].name,50,stdin);
+        scanf("%s",&s[i].name);
         printf("\t enter the book code \n");
         scanf("%d",&s[i].bcd);
         printf("\t enter the number days after which it is returned \n");
