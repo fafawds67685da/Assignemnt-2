@@ -5,21 +5,13 @@ void vow (char *);
 int main()
 {
     char a[100];
-   
-    printf("\t Enter the range \n");
-    scanf("%d",&n);
     printf("\t Enter the string \n");
-    for(int i=0;i<n;i++)
-    {
-        scanf(" %c",&a[i]);
-    }
+    fgets(a,100,stdin);
+    n= strlen(a)-1;
     char *p=a;
     vow(p);
-     printf("\t  the new string is \n");
-    for(int i=0;i<n;i++)
-    {
-        printf("%c",a[i]);
-    }
+    printf("\t  the new string is \n");
+        printf("%s",a);
     return 0;
 
 
